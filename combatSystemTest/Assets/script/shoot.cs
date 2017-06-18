@@ -47,7 +47,7 @@ public class shoot : MonoBehaviour {
 
 		
 
-		if(Input.GetAxis("reverseShoot") == 1)
+		if(Input.GetAxis("reverseShoot") == 1) 
 		{
 			graphLine = this.transform.position - line*modifDist;
 			line = -line;
