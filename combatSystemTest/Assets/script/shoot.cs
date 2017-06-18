@@ -62,11 +62,11 @@ public class shoot : MonoBehaviour {
 
 		if(Input.GetMouseButtonDown (0))
 		{
-			move -= line/2;
+			//move -= line/2;
 		}
 		if (Input.GetMouseButtonDown (1))
 		{
-			move -= line*3;
+			move -= line/2;
 		}
 
 
